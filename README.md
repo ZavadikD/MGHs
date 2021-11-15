@@ -7,4 +7,6 @@ The repository is divided in 3 sections:
 2) Contains data on natural selection estimates for MGHs
 3) Contains data on MGHs exprssion studies.
 
++Miscellaneous section. Data on strain identity, etc.
+
 The detailed explanation for each file can be found either in Supplementary texts & pictures or in the comments of the files.

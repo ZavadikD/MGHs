@@ -1,0 +1,27 @@
+Primer_name(gene&species),forward/reverse,primer_length(bp),Tm_predicted(°C),T_annealing_determined(°C),primer_sequence_5'-3',gDNA_amplicon_length(bp),cDNA_amplicon_length(bp)
+Chlamy\_mer3,Forward,20,64.7,56,GCTGGGTTTGTCTGTTCTGG,285,185
+Chlamy\_mer3,Reverse,20,65.8,56,GGTGCACCTCATCAATCAGC,285,185
+Clamy\_mnd1,Forward,21,66.7,56,GGTGCACATGGAGAAGATTGG,319,173
+Clamy\_mnd1,Reverse,20,65.6,56,TGTCTGGGTTGGCTGCTTTA,319,173
+Chlamy\_L5\_ribosomal,Forward,20,64.4,56,TACAACATCGAGCCTGTGGA,338,192
+Chlamy\_L5\_ribosomal,Reverse,20,65.1,56,CTCAGCGTCCATCTTCTTGC,338,192
+Cocc\_msh4,Forward,20,65.9,didnt amplify well,TTCCTTCCCAGCTCATCGTT,352,241
+Cocc\_msh4,Reverse,20,68.1,didnt amplify well,TCCAGGAAATGCAAAAGGGC,352,241
+Coccomyxa\_L5\_ribosomal,Forward,20,63.9,56-60,CCACAGCAGGTATCAGGTCA,371,195
+Coccomyxa\_L5\_ribosomal,Reverse,20,65.6,56-60,GATGCCACAATGACGTCTCC,371,195
+Cocc\_mnd1,Forward,20,66.8,56-60,ATCTGGAGAAATCGGCACCA,440,245
+Cocc\_mnd1,Reverse,20,63.4,56-60,GCCTTTCCTGCTCTCCTGTA,440,245
+Cocc\_mer3,Forward,20,61.7,55(longer primers used instead),ATGCTGTTCAGTCTGAGGCT,467,244
+Cocc\_mer3,Reverse,20,65.3,55(longer primers used instead),GCTCCAAAACTCTGTTGCCA,467,244
+Cocc\_hop1,Forward,20,62.9,56-60,ATGCCAGCCACTTCTCTTCT,662,241
+Cocc\_hop1,Reverse,20,63.9,56-60,GTGGCCTTGTTGCTCTTCTC,662,241
+Chlamy\_hop1,Forward,19,66.5,56,TCATCCGCATGCTGGTACA,792,204
+Chlamy\_hop1,Reverse,18,67.3,56,CGTGGTGGTCGGTGTTGA,792,204
+Cocc\_hop2,Forward,20,66.1,56-60,TCCAAGATCGACGAGCTGAA,974,218
+Cocc\_hop2,Reverse,20,64.3,56-60,TCCCACAGCTCCTTCACATT,974,218
+Cocc\_mer3\_longer,Forward,24,66.2,56-64,ATGCTGTTCAGTCTGAGGCTTTTC,467,244
+Cocc\_mer3\_longer,Reverse,23,66.2,56-64,GCTCCAAAACTCTGTTGCCATGCC,467,244
+Chlamy\_msh4,Forward,20,62.8,didnt amplify well,AGCTTCCTCACAGAGATGCA,1770,394
+Chlamy\_msh4,Reverse,18,68.5,didnt amplify well,CGTCCTCCAGCATCGCAG,1770,394
+Chlamy\_hop2,Forward,18,56.5,51,CTATCACAGCTGCGAAGT,1075,238
+Chlamy\_hop2,Reverse,20,66.9,51,CGTCCATGTTCTCGCTGATG,1075,238

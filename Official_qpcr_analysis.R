@@ -45,7 +45,6 @@ resstati
 ###plotting
 res <- read.csv("Official_ddCT_calc_res_publish.csv", sep = ",")
 str(res)
-res$p_value_factor <-  c()
 
 res1 <- within(res,{p_value_factor <- NA
 p_value_factor[p_value <= 0.05] <- "Significant"
@@ -53,10 +52,10 @@ p_value_factor[p_value >= 0.05] <- "Not significant"
 p_value_factor[p_value == "No"] <- "Control"
 })
 
+res1$relative_expression[12] <- NA
 res1
 
-ggplot(data=res1, aes(x=factor(group, levels = c("Standard culture","Nitrate deficiency","Darkness","Darkness-light")), y=relative_expression, group=gene, color = gene, shape = p_value_factor)) +
-  #geom_point(size=5, position = position_dodge(width=0.5))+
+qPCR <- ggplot(data=res1, aes(x=factor(group, levels = c("Standard culture","Nitrate deficiency","Darkness","Darkness-light")), y=relative_expression, group=gene, color = gene, shape = p_value_factor)) +
   yscale("log2", .format = TRUE)+ 
   geom_line(position = position_dodge(width=0.5))+
   geom_pointrange(aes(ymin=as.numeric(relative_expression-error), ymax=as.numeric(relative_expression+error)),size=0.8, position = position_dodge(width=0.5))+
@@ -65,5 +64,5 @@ ggplot(data=res1, aes(x=factor(group, levels = c("Standard culture","Nitrate def
   labs( color = "Gene", shape = "Difference control \nvs test condition")+ scale_color_brewer(palette = "Paired")+theme_bw(base_size = 15)+
   scale_shape_manual(values=c(7:10))
 
-
+ggsave("qPCR_results.png", qPCR,width = 10, height = 7.5)
 
